@@ -17,22 +17,22 @@ export class Libro {
     disponible: string;
 
     constructor(
-        titulo: string = 'Cien años de soledad',
-        autor: string = 'Gabriel García Márquez',
-        genero: string = 'Ficción',
-        idioma: string = 'Español',
-        precio: number = 18.99,
-        formato: string = 'Tapa blanda',
-        isbn: string = '978-0307474728',
-        descripcion: string = 'La novela narra la historia de la familia Buendía a lo largo de siete generaciones en el ficticio pueblo de Macondo.',
-        estado: string = 'nuevo',
-        ubicacion: string = 'Bogotá, Colombia',
-        fecha_publicacion: number = 1967,
-        editorial: string = 'Editorial Sudamericana',
-        paginas: number = 417,
-        dimensiones: string = '13 x 2.8 x 19.8 cm',
-        peso: string = '340 gramos',
-        disponible: string = 'si'
+        titulo:string ="La Odisea",
+        autor:string ="Homero",
+        genero:string ="Epopeya, Literatura clásica",
+        idioma:string ="Español",
+        precio:number =50.99,
+        formato:string ="Tapa dura",
+        isbn:string ="978-8497648452",
+        descripcion:string ="Es un poema épico que relata el regreso del héroe griego Ulises a su hogar en Ítaca después de la Guerra de Troya.",
+        estado:string ="Nuevo",
+        ubicacion:string ="Librería La Rueda del Tiempo",
+        fecha_publicacion:number =2008,
+        editorial:string ="Ediciones Cátedra",
+        paginas:number =480,
+        dimensiones:string ="21 cm x 14 cm x 3 cm",
+        peso:string ="650 gramos",
+        disponible:string ="si"
     ) {
         this.titulo = titulo;
         this.autor = autor;
